@@ -36,6 +36,19 @@ header{
             }
         
         }
+        .closeMenu{
+            cursor: pointer;
+            display: none;
+            font-size: 2rem;
+            @media (max-width:800px) {
+                nav .closeMenu
+                {
+                    height: 100vh;
+                    position: fixed;
+                    top:0;
+                }
+            }
+        }
         .btn_contact{
             width: 123px;
             height: 40px;

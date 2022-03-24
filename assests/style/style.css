@@ -45,6 +45,20 @@ header .wrapper nav ul li a {
   text-decoration: none;
 }
 
+header .wrapper nav ul .closeMenu {
+  cursor: pointer;
+  display: none;
+  font-size: 2rem;
+}
+
+@media (max-width: 800px) {
+  header .wrapper nav ul .closeMenu nav .closeMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+  }
+}
+
 header .wrapper nav ul .btn_contact {
   width: 123px;
   height: 40px;
