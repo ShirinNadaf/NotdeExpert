@@ -127,7 +127,6 @@ header .wrapper nav ul .btn_contact:hover {
 
 .containt_two .containt_wrap_one .containt_two_para {
   margin-top: 12px;
-  width: 1439px;
   height: 224px;
   font-family: 'Manrope';
   font-style: normal;
@@ -268,6 +267,12 @@ header .wrapper nav ul .btn_contact:hover {
   color: #18191F;
 }
 
+.feedback .card_feedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .feedback .card_feedback .card_feedback_one {
   height: 306px;
   width: 341px;
@@ -279,7 +284,19 @@ header .wrapper nav ul .btn_contact:hover {
 }
 
 .feedback .card_feedback .card_feedback_one .card_feedback_one {
-  margin-top: 40px;
+  margin-top: 40px 25px 0px 32px;
+}
+
+.feedback .card_feedback .card_feedback_one .card_feedback_one h6 {
+  font-family: 'Manrope';
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(24, 25, 31, 0.67);
+}
+
+.feedback .card_feedback .card_feedback_one .card_feedback_one h6 .readblog {
+  text-decoration: none;
+  color: #80BF43;
 }
 
 /*end feedback*/

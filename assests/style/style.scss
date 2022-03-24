@@ -109,7 +109,7 @@ header{
         }
         .containt_two_para{
             margin-top: 12px;
-            width: 1439px;
+           
             height: 224px;
             font-family: 'Manrope';
             font-style: normal;
@@ -226,6 +226,8 @@ header{
         color: #18191F;
      }
      .card_feedback{
+         display: flex;
+
          .card_feedback_one{
             height: 306px;
             width: 341px;
@@ -234,7 +236,17 @@ header{
             background: #FFFFFF;
             box-shadow: 0px 10px 25px 3px rgba(41, 41, 42, 0.1);
             .card_feedback_one{
-                margin-top: 40px;
+                margin-top: 40px 25px 0px 32px;
+                h6{
+                    font-family: 'Manrope';
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: rgba(24, 25, 31, 0.67);
+                    .readblog{   
+                    text-decoration: none;
+                    color: #80BF43;
+                    }
+            }
             }
      }
      }
